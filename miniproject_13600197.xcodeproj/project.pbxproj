@@ -12,6 +12,14 @@
 		2D226EB6219200DA003DF852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D226EB4219200DA003DF852 /* Main.storyboard */; };
 		2D226EB8219200DC003DF852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D226EB7219200DC003DF852 /* Assets.xcassets */; };
 		2D226EBB219200DC003DF852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D226EB9219200DC003DF852 /* LaunchScreen.storyboard */; };
+		2D226EE521946EA4003DF852 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D226EE421946EA4003DF852 /* Question.swift */; };
+		2D226EE821946ECB003DF852 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D226EE721946ECB003DF852 /* QuestionBank.swift */; };
+		2D78DAE5219F478B009D352D /* PGVIM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D78DAE3219F478B009D352D /* PGVIM.ttf */; };
+		2D78DB35219F672D009D352D /* note2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D78DB32219F672D009D352D /* note2.mp3 */; };
+		2D78DB36219F672D009D352D /* note1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D78DB33219F672D009D352D /* note1.mp3 */; };
+		2D78DB4D21A01EA7009D352D /* page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78DB4C21A01EA7009D352D /* page3.swift */; };
+		2DA83375219A0C1C00BC7162 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA83372219A0C1C00BC7162 /* ProgressHUD.m */; };
+		2DA83376219A0C1C00BC7162 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DA83373219A0C1C00BC7162 /* ProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		2D226EB7219200DC003DF852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D226EBA219200DC003DF852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D226EBC219200DC003DF852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D226EE421946EA4003DF852 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2D226EE721946ECB003DF852 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		2D78DAE3219F478B009D352D /* PGVIM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PGVIM.ttf; sourceTree = "<group>"; };
+		2D78DB32219F672D009D352D /* note2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = note2.mp3; sourceTree = "<group>"; };
+		2D78DB33219F672D009D352D /* note1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = note1.mp3; sourceTree = "<group>"; };
+		2D78DB4C21A01EA7009D352D /* page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3.swift; sourceTree = "<group>"; };
+		2DA83371219A0C1B00BC7162 /* miniproject_13600197-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "miniproject_13600197-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DA83372219A0C1C00BC7162 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		2DA83373219A0C1C00BC7162 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		2DA83374219A0C1C00BC7162 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +72,50 @@
 		2D226EAF219200DA003DF852 /* miniproject_13600197 */ = {
 			isa = PBXGroup;
 			children = (
+				2D226EE621946EAD003DF852 /* Modal */,
 				2D226EB0219200DA003DF852 /* AppDelegate.swift */,
 				2D226EB2219200DA003DF852 /* ViewController.swift */,
 				2D226EB4219200DA003DF852 /* Main.storyboard */,
+				2D78DB4C21A01EA7009D352D /* page3.swift */,
+				2DA83373219A0C1C00BC7162 /* ProgressHUD.bundle */,
+				2DA83374219A0C1C00BC7162 /* ProgressHUD.h */,
+				2DA83372219A0C1C00BC7162 /* ProgressHUD.m */,
+				2DA83371219A0C1B00BC7162 /* miniproject_13600197-Bridging-Header.h */,
 				2D226EB7219200DC003DF852 /* Assets.xcassets */,
 				2D226EB9219200DC003DF852 /* LaunchScreen.storyboard */,
 				2D226EBC219200DC003DF852 /* Info.plist */,
+				2D78DB30219F672D009D352D /* sound */,
+				2D78DAE1219F4719009D352D /* font */,
 			);
 			path = miniproject_13600197;
 			sourceTree = "<group>";
+		};
+		2D226EE621946EAD003DF852 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2D226EE421946EA4003DF852 /* Question.swift */,
+				2D226EE721946ECB003DF852 /* QuestionBank.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		2D78DAE1219F4719009D352D /* font */ = {
+			isa = PBXGroup;
+			children = (
+				2D78DAE3219F478B009D352D /* PGVIM.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		2D78DB30219F672D009D352D /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				2D78DB32219F672D009D352D /* note2.mp3 */,
+				2D78DB33219F672D009D352D /* note1.mp3 */,
+			);
+			name = sound;
+			path = miniproject_13600197/sound;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					2D226EAC219200DA003DF852 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +176,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D78DB36219F672D009D352D /* note1.mp3 in Resources */,
+				2D78DAE5219F478B009D352D /* PGVIM.ttf in Resources */,
 				2D226EBB219200DC003DF852 /* LaunchScreen.storyboard in Resources */,
+				2DA83376219A0C1C00BC7162 /* ProgressHUD.bundle in Resources */,
 				2D226EB8219200DC003DF852 /* Assets.xcassets in Resources */,
 				2D226EB6219200DA003DF852 /* Main.storyboard in Resources */,
+				2D78DB35219F672D009D352D /* note2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D226EE521946EA4003DF852 /* Question.swift in Sources */,
+				2D226EE821946ECB003DF852 /* QuestionBank.swift in Sources */,
+				2D78DB4D21A01EA7009D352D /* page3.swift in Sources */,
 				2D226EB3219200DA003DF852 /* ViewController.swift in Sources */,
+				2DA83375219A0C1C00BC7162 /* ProgressHUD.m in Sources */,
 				2D226EB1219200DA003DF852 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3Z6Q26APU;
 				INFOPLIST_FILE = miniproject_13600197/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,8 +354,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.phattranitasawalertpanya.miniproject-13600197";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "miniproject_13600197/miniproject_13600197-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,7 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3Z6Q26APU;
 				INFOPLIST_FILE = miniproject_13600197/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,8 +375,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.phattranitasawalertpanya.miniproject-13600197";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "miniproject_13600197/miniproject_13600197-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
